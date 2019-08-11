@@ -10,5 +10,6 @@
 编译时多态：函数重载
 
 具体结果详见c++ primer, 我写的[demo][polymorphism_demo_code]， 从代码可以直接看出， 那些是运行时多态，编译时多态.
+对于函数重载，编译器在预处理过程中，会自动在函数名后加上各种的后缀，用来区别。当编译过程中，再去根据参数不同等寻找对应的函数。
 
-[polymorphism_demo_code]: ./demo/linux/3
+[polymorphism_demo_code]: ./demo/c++/1

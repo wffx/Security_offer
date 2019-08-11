@@ -11,7 +11,8 @@ Created by wffx, in 2019/8/5.
 Introduce the foundation of CS, such as linux, OS, network, algorithm and so on. 
 
 ### Privacy_Protection
-to be continued...
+Introduce the techniques of privacy protection, including differential privacy, fully homomorphic encryption, trust execution environment and so on. 
+(This part will be updated slowly, because many things I need to learn is difficult.)
 
 ### Web_Security
 
