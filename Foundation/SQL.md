@@ -7,7 +7,7 @@ Reference： [1](https://zhuanlan.zhihu.com/p/61805956)
 
 ## 框架图
 
-![pic](./img/2019-08-14 10-55-17.png)
+![pic](./img/2019-08-14-10-55-17.png)
 
 ## 基本使用
 
@@ -22,6 +22,7 @@ select a from table;
     - left join： 左连接，以左表为准，逐条去右表找可匹配字段。如果找到列出，找不到为NULL
     - right join: 右连接，以右表为准，逐条去左表找可匹配字段。如果找到列出，找不到为NULL
     - full outer join: 包含两个表的连接结果，如果左表缺失或者右表缺失的数据会填充NULL
+
 ~~~
 //以MySQL为例
 show tables;
@@ -71,7 +72,7 @@ on a.id = b.id;
 - group by 将一个或多个列结果集进行分组后，再执行聚合函数max,min,avg
 - order by 将检索后的结果排序
 
-～～～
+~~~
 // distinct
 // 罗列不同的age
 select distinct age from info;
@@ -91,5 +92,4 @@ group by id
 // 按年龄全局倒序排序取最年迈的10个人
 select id,age from info order by age DESC 
 limit 10
-
-～～～
+~~~

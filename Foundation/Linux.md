@@ -197,7 +197,7 @@ S_IXOTH	  |	Set execution rights for other users to true.
 
 此外再说下关于编程里用到的各种int型的flag，其实它都是标记的一个一个比特，如果熟悉的话，可以直接用8进制的数代替，参考下图：
 
-![pic](./img/2019-08-06 01.png)
+![pic](./img/2019-08-06-01.png)
 
 每个flag值的最右边9位分别都是用来控制读，写，执行权限的，从第十位开始依次用来做标记，比如：**IPC_CREAT**用第10位标记，**IPC_EXCL**用第11位标记，**SHM_HUGETLB**用第12位标记, **SHM_NORESERVE**用第13位标记等等， 所以如果编程过程中出现各种flag个错误或者权限错误可以更加清楚的调整。
 
