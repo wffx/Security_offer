@@ -26,3 +26,11 @@
 - 保存路径的时候，我这里在储存队列的时候封装了到当前节点的路径vector
 
 [demo](./demo/algorithm/graph_base/BFS.cpp)
+
+## 拓扑排序
+拓扑排序需要满足以下条件：
+
+- 存在边(u,v)则u点一定在v点之前
+- 图中没有环路
+
+[demo](./demo/algorithm/graph_tupo_sort)
