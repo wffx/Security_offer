@@ -14,7 +14,8 @@
 
 ## 操作系统
 
-- Linux.md: linux中的进程通信
+- Linux_1.md: linux中的进程通信
+- Linux_2.md: awk, grep, find, sed 
 
 待更新:  
 - 鸿蒙微内核
